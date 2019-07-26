@@ -60,6 +60,18 @@ Usage:
 ```
 note: .deposit also returns your deposit address
 
+## Add me: Attempts to force a connection to your node (experimental)
+Usage:
+```
+.addme <onion address>
+```
+
+Example: will attempt to force a connection to 5j4ohi7sdmcnmq5e.onion
+```
+.addme 5j4ohi7sdmcnmq5e.onion
+```
+
+
 ## NOTES:
 
 FEES: CURRENTLY there is only network fees associated with the bot (when you withdraw you pay the network fee)
